@@ -1,0 +1,160 @@
+/*
+GLOBAL
+*/
+
+.heading-site {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.COLORED {
+    height: 400px;
+    width: 100%;
+    background-color: #ff9f43;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*
+HEADER
+*/
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    z-index: 999;
+   
+}
+
+.header .header-logo {
+    color: coral;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+    position: fixed;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: coral;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .header-menu a:hover {
+    color: cornflowerblue;
+}
+
+.header .header-menu ul li {
+    list-style: none;
+    float: left;
+    margin-left: 160px;
+}
+
+.header .header-menu ul li a {
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header .header-menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.header .header-menu ul ul li a {
+    width: auto;
+    clear: both;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    border-top: solid white;
+    margin-left: -120px;
+    background-color: coral;
+}
+
+.header ul li:hover ul {
+    visibility: visible;
+    z-index: 999;
+}
+
+
+/*BANNER
+*/
+
+.banner {
+    margin-top: -40px;
+    z-index: 0;
+}
+
+.banner .banner-image {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 75%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+    color: rgb(90, 20, 220);
+    text-align: center;
+    margin-top: -100px;
+    text-size-adjust: 100%;
+    font-family: georgia, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/*
+ABOUT
+*/
+
+.about .about-single-element .icon {
+    font-size: 60px;
+    text-align: center;
+}
+
+.about .about-single-element {
+    text-align: center;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.own-modal {
+    padding-top: 100px;
+}
+
+
+/* PARALAX */
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/ph.jpg");
+    /* Set a specific height */
+    height: fit-conten;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
